@@ -1,0 +1,68 @@
+<html lang="en">
+
+<head>
+    <title>Colgroup Example</title>
+</head>
+
+<body>
+    <!-- 
+        -> The <colgroup> tag specifies a group of one or more columns in a table 
+           for formatting.
+
+        -> The <colgroup> tag is useful for applying styles to entire columns, 
+           instead of repeating the styles for each cell, for each row.
+
+        Note: The <colgroup> tag must be a child of a <table> element, after any 
+        <caption> elements and before any <thead>, <tbody>, <tfoot>, and <tr> elements.
+
+        Tip: To define different properties to a column within a <colgroup>, 
+        use the <col> tag within the <colgroup> tag.
+     -->
+    <table border="1" cellspacing="5" cellpadding="5">
+        <caption>Subjects in BIM 3rd Semester</caption>
+
+        <colgroup>
+            <col span="1" style="background-color: green;">
+            <col span="1" style="background-color: yellow;">
+            <col span="1" style="background-color: red;">
+        </colgroup>
+
+            <tr>
+                <th>S.No.</th>
+                <th>Subject Name</th>
+                <th>Credit Hour</th>
+            </tr>
+        
+        <tr>
+            <td>1.</td>
+            <td>Web Programming - I</td>
+            <td>3 Cr.</td>
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td>Java Programming - I</td>
+            <td>3 Cr.</td>
+        </tr>
+        <tr>
+            <td>3.</td>
+            <td>Business Statistics</td>
+            <td>3 Cr.</td>
+        </tr>
+        <tr>
+            <td>4.</td>
+            <td>Financial Accounting</td>
+            <td>3 Cr.</td>
+        </tr>
+        <tr>
+            <td>5.</td>
+            <td>Computer Organisation</td>
+            <td>3 Cr.</td>
+        </tr>
+        
+    </table>
+    <!-- 
+        Task: Search what does "scope" attributes denotes.
+     -->
+</body>
+
+</html>
