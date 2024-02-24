@@ -1,0 +1,30 @@
+Definition: 
+
+The <iframe> tag in HTML stands for "inline frame" and 
+is used to embed another HTML document within the current
+document. It allows you to display content from another source, 
+such as a webpage or video, within your own webpage.
+
+The <iframe> tag has several relevant attributes:
+
+1. "src": Specifies the URL of the document to be embedded within the iframe.
+
+2. "width and height": Sets the dimensions of the iframe.
+
+3. "frameborder": Specifies whether or not to display a border around the iframe. 
+   Use "0" for no border and "1" to display a border.
+
+4. "allowfullscreen": Indicates whether the iframe can be displayed in fullscreen mode. 
+   Set it to "true" to enable fullscreen.
+
+5. "scrolling": Controls whether or not scrollbars should be displayed within the iframe. 
+   Set it to "yes" to enable scrolling or "no" to disable it.
+
+6. "sandbox": Creates a sandbox environment for the iframe, restricting its access to 
+   certain features of the parent document for security purposes.
+
+7. "name": Assigns a name to the iframe, which can be used as the target for links or 
+   form submissions.
+
+8. "loading": Specifies how the iframe's content should be loaded. Options include 
+   "eager" (load immediately) and "lazy"(load when it becomes visible in the viewport).
