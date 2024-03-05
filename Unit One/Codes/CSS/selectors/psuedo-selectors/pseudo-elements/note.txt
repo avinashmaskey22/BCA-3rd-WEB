@@ -1,0 +1,7 @@
+A CSS pseudo-element is a keyword added to a selector that lets you style a specific part of the selected element(s).
+
+For example, it can be used to:
+
+    -> Style the first letter, or line, of an element
+    -> Insert content before, or after, the content of an element
+

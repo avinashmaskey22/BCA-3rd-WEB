@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <style type="text/css">
+        p.one {
+            font-family: verdana;
+        }
+
+        p.two {
+            font-family: 'times new roman';
+        }
+
+        #a,
+        #b {
+            font-size-adjust: 0.58;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 
+        Note: Only Firefox supports the font-size-adjust property.
+     -->
+    <h2>Two paragraphs with the same font-size-adjust property:</h2>
+    <p class="one" id="a">"They use force, to make you do, what the deciders, have decided you must do."</p>
+    <p class="two" id="b">"They use force, to make you do, what the deciders, have decided you must do."</p>
+
+    <h2>Two paragraphs without the same font-size-adjust property:</h2>
+    <p class="one">"They use force, to make you do, what the deciders, have decided you must do."</p>
+    <p class="two">"They use force, to make you do, what the deciders, have decided you must do."</p>
+</body>
+
+</html>

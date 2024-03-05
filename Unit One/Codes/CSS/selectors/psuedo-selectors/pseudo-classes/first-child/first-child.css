@@ -1,0 +1,8 @@
+p {
+    font-weight: bold;
+}
+
+li:first-child {
+    border: 2px solid orange;
+    width: 100px;
+}

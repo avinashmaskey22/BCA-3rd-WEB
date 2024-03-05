@@ -1,0 +1,5 @@
+li::marker {
+    content: '* ';
+    font-size: 20px;
+    color: red;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- 
+        Don't use the EM unit 😵❌; Using the EM unit is not worth the effort because:
+        -> you have a high chance of making a calculation error
+        -> you have to write a lot of code in media queries while trying to make the website responsive on all screen sizes
+        -> it's too time-consuming
+     -->
+    <div style="font-size: 16px;">
+        I am Parent
+        <div style="font-size: 1.5em;">
+            I am Child
+            <div style="font-size: 0.8em;">
+                I am grand child
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
