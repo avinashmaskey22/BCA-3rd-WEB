@@ -1,0 +1,25 @@
+p.one {
+    width: 300px;
+    height: 100px;
+    padding: 2px;
+    margin: 10px;
+    border-style: solid;
+}
+
+p.two {
+    width: 300px;
+    height: 80px;
+    padding: 2px;
+    margin: 10px;
+    border-style: solid;
+    line-height: 16px;
+}
+
+p.three {
+    width: 300px;
+    height: 110px;
+    padding: 2px;
+    margin-left: 10px;
+    border-style: solid;
+    line-height: 28px;
+}

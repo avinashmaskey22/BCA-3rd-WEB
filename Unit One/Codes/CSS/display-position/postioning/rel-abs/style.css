@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+.parent {
+    border: 5px solid black;
+    padding: 10px;
+    height: 200px;
+    width: 400px;
+    position: relative;
+}
+
+.one {
+    display: inline-block;
+    border: 2px solid black;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+.two {
+    display: inline-block;
+    border: 2px solid black;
+    background-color: green;
+    width: 100px;
+    height: 100px;
+}
+
+.three {
+    display: inline-block;
+    border: 2px solid black;
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 30px;
+    left: 40px;
+}

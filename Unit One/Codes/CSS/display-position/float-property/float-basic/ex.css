@@ -1,0 +1,12 @@
+.first {
+    border: 2px solid black;
+    width: 400px;
+    float: left;
+    margin-right: 10px;
+}
+
+.second {
+    border: 2px solid black;
+    width: 400px;
+    float: right;
+}

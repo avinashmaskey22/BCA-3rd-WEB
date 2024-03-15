@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Display Property Example</title>
+    <style>
+        .one .block {
+            display: block;
+            color: salmon;
+        }
+
+        .two .inline {
+            display: inline;
+            color: firebrick;
+        }
+
+        .three .inline-block {
+            display: inline-block;
+            color: rebeccapurple;
+            content: url(apple.jpg);
+            width: 30px;
+            height: 40px;
+            top: 20px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="one">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus nam similique,
+        iusto aliquid minus tempora <span class="block">dolorem odio</span> cupiditate nostrum fugiat expedita itaque
+        repudiandae dolores saepe dolore earum? Modi, eos est?
+    </div>
+    <hr>
+    <hr>
+    <div class="two">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus nam similique,
+        iusto aliquid minus tempora <span class="inline">dolorem odio</span> cupiditate nostrum fugiat expedita itaque
+        repudiandae dolores saepe dolore earum? Modi, eos est?
+    </div>
+    <hr>
+    <hr>
+    <div class="three">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus nam similique,
+        iusto aliquid minus tempora <span class="inline-block"></span> cupiditate nostrum fugiat expedita
+        itaque
+        repudiandae dolores saepe dolore earum? Modi, eos est?
+    </div>
+</body>
+
+</html>

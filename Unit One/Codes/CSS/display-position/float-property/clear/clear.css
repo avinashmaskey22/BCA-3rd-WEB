@@ -1,0 +1,19 @@
+.firstBox {
+    border: 2px solid black;
+    background-color: red;
+    width: 400px;
+    float: left;
+}
+
+.secondBox {
+    border: 2px solid black;
+    background-color: green;
+    width: 400px;
+    float: right;
+}
+
+.thirdBox {
+    border: 2px solid black;
+    background-color: violet;
+    clear: both;
+}

@@ -1,0 +1,47 @@
+.container {
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    margin: auto;
+}
+
+
+.red {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.green {
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue {
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.yellow {
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

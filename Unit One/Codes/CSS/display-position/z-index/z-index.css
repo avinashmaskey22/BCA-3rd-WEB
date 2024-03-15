@@ -1,0 +1,28 @@
+p {
+    width: 200px;
+    background-color: #ffffff;
+    padding: 5px;
+    margin: 10px;
+    border: 2px solid #000000;
+}
+
+p.one {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 1;
+}
+
+p.two {
+    position: absolute;
+    top: 50px;
+    left: 45px;
+    z-index: 3;
+}
+
+p.three {
+    position: absolute;
+    top: 40px;
+    left: 35px;
+    z-index: 2;
+}
