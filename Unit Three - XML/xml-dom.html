@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        const xmlString = `
+        <bookstore>
+            <book>
+                <title>Harry Potter</title>
+                <author>J.K. Rowling</author>
+                <year>1997</year>
+                <price>29.99</price>
+            </book>
+            <book>
+                <title>Learning XML</title>
+                <author>Erik T. Ray</author>
+                <year>2003</year>
+                <price>39.95</price>
+            </book>
+        </bookstore>
+        `;
+
+        // Parsing the XML string
+        const parser = new DOMParser();
+        const xmlDoc = parser.parseFromString(xmlString, "text/xml");
+
+        // Getting all book elements
+        const books = xmlDoc.getElementsByTagName("book");
+
+        // Looping through each book and logging title and author
+        for (let i = 0; i < books.length; i++) {
+            const title = books[i].getElementsByTagName("title")[0].textContent;
+            const author = books[i].getElementsByTagName("author")[0].textContent;
+            console.log(`Title: ${title}, Author: ${author}`);
+        }
+
+    </script>
+</body>
+
+</html>
