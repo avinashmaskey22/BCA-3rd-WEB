@@ -14,6 +14,7 @@
         <bookstore>
             <book>
                 <title>Harry Potter</title>
+                <title>Ram Nepal</title>
                 <author>J.K. Rowling</author>
                 <year>1997</year>
                 <price>29.99</price>
@@ -30,7 +31,7 @@
         // Parsing the XML string
         const parser = new DOMParser();
         const xmlDoc = parser.parseFromString(xmlString, "text/xml");
-
+        
         // Getting all book elements
         const books = xmlDoc.getElementsByTagName("book");
 
