@@ -19,11 +19,10 @@ echo GRAVITY; */
 
 // $img_url = "c:/image/a.jpg";
 
-/* const IMAGE_URL = $img_url; // It is not allowed
+/* const IMAGE_URL = $img_url; // variable definition is not allowed
 
 echo IMAGE_URL; */
 
-/* define('IMAGE_URL', $img_url); //It is allowed
+/* define('IMAGE_URL', $img_url); //variable definition is allowed
 
-echo IMAGE_URL;
- */
+echo IMAGE_URL; */

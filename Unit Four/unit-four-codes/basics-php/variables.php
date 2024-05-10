@@ -9,7 +9,7 @@
 
 /* Examples of string interpolation */
 
-        /* $var = 'example of a string'; //string
+       /*  $var = 'example of a string'; //string
         $num = 10; //number
         $b = null; //null data type
 

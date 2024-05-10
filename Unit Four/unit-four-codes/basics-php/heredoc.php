@@ -5,7 +5,7 @@
         -> Single Quote 
         -> Double quote
         -> Heredoc
-        -> Nowdoc (not in syllabus)
+        -> Nowdoc 
 */
 
 /* 
@@ -26,6 +26,7 @@ be escaped.
 */
 $num = 1000;
 
+//heredoc
 $data = <<<MYFILE
         This is $num our second class in <b>PHP</b> 
         <br>
