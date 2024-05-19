@@ -30,9 +30,9 @@
 
 /* Increment or Decrement Operator */
 
-/* $a = 10;
+$a = 10;
 
-echo $a;
+/* echo $a;
 echo "<br>";
 echo $a++;
 echo "<br>";
@@ -41,10 +41,10 @@ echo ++$a; */
 
 /* Concatenation/String Operator */
 
-$fname = "Angel";
+/* $fname = "Angel";
 $lname = "Dimaria";
 
-// echo $fname . " " . $lname;
+echo $fname . " " . $lname; */
 
 
 /* Assignment Operator */
@@ -95,10 +95,10 @@ $c = null; //string null
     -> If x > y, it returns 1
 */
 
-$x = 20;
+/* $x = 20;
 $y = 100;
 
-echo ($x <=> $y);
+echo ($x <=> $y); */
 
 
 /* Conditional Operator or Ternary Operator or short hand property of if else */
@@ -106,6 +106,6 @@ echo ($x <=> $y);
 /* $a = 100;
 $b = 50;
 
-echo ($a > $b) ? "true" : "false"; */
+echo ($a > $b) ? "true" : "false";
 
-echo "<br>";
+echo "<br>"; */

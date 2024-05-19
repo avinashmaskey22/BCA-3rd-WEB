@@ -25,7 +25,7 @@ Control Statemensts/Structure are divided into two categories:
 /* $is_logged = false;
 
 if ($is_logged) {
-        echo "You are successgully logged in.";
+        echo "You are successfully logged in.";
 } else {
         echo "Sorry! Invalid credentials.";
 } */

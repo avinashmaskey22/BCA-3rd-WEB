@@ -2,44 +2,46 @@
 
 /* Date Function: (case sensitive)
 
-    Year:
-    2020 => Y, o
-    20 => y
+Year:
+2024 => Y, o
+24 => y
 
-    Months:
-    01 => m
-    1 => n
-    January => F
-    Jan => M
+Months:
+01 => m
+1 => n
+January => F
+Jan => M
 
-    Date/Day:
-    01-31 => d
-    1-31 => j
-    Sunday-Saturday => l
-    Sun-Sat => D
+Date/Day:
+01-31 => d
+1-31 => j
+Sunday-Saturday => l
+Sun-Sat => D
 
-    1st, 2nd, 3rd .... => S (works better with j)
+1st, 2nd, 3rd .... => S (works better with j)
 
-    Hour:
-    01-12 => h (we can use am or pm)
-    00-23 => H (we should not use am or pm)
+Hour:
+01-12 => h (we can use am or pm)
+00-23 => H (we should not use am or pm)
 
-    Minute:
-    00-59 => i
+Minute:
+00-59 => i
 
-    Seconds:
-    00-59 => s
+Seconds:
+00-59 => s
 
-    am/pm => a
-    AM/PM => A
+am/pm => a
+AM/PM => A
 */
 
 /* Date format:
     date('format', timestamp);    
 */
 
+date_default_timezone_set('Asia/Kathmandu');
+
 $date = date('Y-m-d h:i:s A');
-// echo $date;
+echo $date;
 echo "<br>";
 
 $timezone = date_default_timezone_get();
@@ -56,6 +58,6 @@ $date = date('Y-m-d h:i:s A');
 
 echo "<br>";
 
-/* 16th of December, 2022 */
+/* 17th of May, 2024 */
 $date = date('jS \of F, Y');
 echo $date;
