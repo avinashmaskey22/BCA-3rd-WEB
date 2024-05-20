@@ -9,9 +9,9 @@
 
 /* two ways of defining an array */
 $info = [
-    "Shanker Dev Campus",
-    "sdc@shankerdev.edu.np",
-    "Putalisadak",
+    "Kathmandu Model College",
+    "bca@kmc.edu.np",
+    "Bagbazaar",
     11111111
 ];
 
@@ -26,9 +26,9 @@ var_dump($info);
 echo "</pre>"; */
 
 /* $infos = array(
-    "Shanker Dev Campus",
-    "sdc@thames.edu.np",
-    "Putalisadak",
+    "Kathmandu Model College",
+    "bca@kmc.edu.np",
+    "Bagbazaar",
     11111111
 );
 
@@ -78,4 +78,3 @@ echo "</pre>"; */
 
 // echo $person['email'];
 
-/* https:github.com/avinashmaskey22 */

@@ -14,14 +14,3 @@ $timestamp = strtotime($date); //timestamp works on the basis of base date (1970
 
 $date = date('Y-m-d h:i:s A', $timestamp);
 echo $date . "<br>";
-
-
-
-
-
-
-
-
-/* Q. 8th of December, 2022 */
-
-// echo date('jS \of F, Y');
