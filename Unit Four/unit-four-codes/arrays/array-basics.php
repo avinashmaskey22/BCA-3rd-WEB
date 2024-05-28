@@ -32,7 +32,6 @@ echo "</pre>"; */
     11111111
 );
 
-
 echo "<pre>";
 print_r($infos);
 echo "</pre>"; */
@@ -52,25 +51,21 @@ echo "</pre>"; */
 
 /* Indexive array or Numeric arrays */
 
-/* $data = array(
+$data = array(
     "Ram Nepali",
     "ram.nepali@gmail.com",
     "Nepal",
     988888888888
-); */
-
-
+);
 
 /* Associative array */
 
 $person = array(
-    'name' => "Ram Nepali",
+    'name' => 'Ram Nepali',
     'email' => "ram.nepali@gmail.com",
     'address' => "Nepal",
     'phone' => 988888888888
 );
-
-// echo $person['name'];
 
 /* echo "<pre>";
 print_r($person);

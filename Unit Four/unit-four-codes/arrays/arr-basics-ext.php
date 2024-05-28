@@ -22,11 +22,11 @@ print_r($dinner);
 echo "</pre>"; */
 
 // An array called $computers with numeric and string keys
-/* $computers['trs-80'] = 'Radio Shack';
+$computers['trs-80'] = 'Radio Shack';
 $computers[2600] = 'Atari';
 $computers['Adam'] = 'Coleco';
 
-echo "<pre>";
+/* echo "<pre>";
 print_r($computers);
 echo "</pre>"; */
 
@@ -81,6 +81,7 @@ $dinner = array(
     'MoMo'
 );
 
+
 // echo "I want $dinner[0] and $dinner[1].";
 // echo "I want $dinner[name1] and $dinner[name2].";
 // echo "I want {$dinner['name1']} and {$dinner['name2']}.";
@@ -92,11 +93,11 @@ $lunch[0] = 'Dried Mushrooms in Brown Sauce';
 
 // This sets $lunch[1]
 $lunch[1] = 'Pineapple and Yu Fungus';
-$lunch[] = 'Choila';
+$lunch[5] = 'Choila';
 
-/* echo "<pre>";
+echo "<pre>";
 print_r($lunch);
-echo "</pre>"; */
+echo "</pre>";
 
 
 /* Example: Adding elements with [], Create $dinner with three elements */

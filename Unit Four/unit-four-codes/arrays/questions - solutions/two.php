@@ -3,16 +3,16 @@
 /* Q. Write a PHP program to print the following List in an array 
       and display as follows:
     
-    a. Bachelor in Information Management.
-    b. Bachelor in Business Administration.
-    c. Bachelor in Business Studies.
+    a. Bachelor of Information Management
+    b. Bachelor of Business Administration
+    c. Bachelor of Computer Application
     
 */
 
 $faculties = array(
-    'Bachelor in Information Management',
-    'Bachelor in Business Administration',
-    'Bachelor in Business Studies'
+    'Bachelor of Information Management',
+    'Bachelor of Business Administration',
+    'Bachelor of Computer Application'
 );
 
 ?>
