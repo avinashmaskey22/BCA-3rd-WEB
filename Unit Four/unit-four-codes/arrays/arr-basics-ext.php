@@ -95,9 +95,9 @@ $lunch[0] = 'Dried Mushrooms in Brown Sauce';
 $lunch[1] = 'Pineapple and Yu Fungus';
 $lunch[5] = 'Choila';
 
-echo "<pre>";
+/* echo "<pre>";
 print_r($lunch);
-echo "</pre>";
+echo "</pre>"; */
 
 
 /* Example: Adding elements with [], Create $dinner with three elements */

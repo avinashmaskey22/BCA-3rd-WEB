@@ -1,7 +1,7 @@
 <?php
 $person = array(
-    'User One',
-    'userone@gmail.com',
+   'name' => 'User One',
+    'email' => 'userone@gmail.com',
     'Kathmandu',
     '9999999999'
 );
@@ -31,9 +31,7 @@ $i = 1;
             foreach ($person as $info => $data) {
             ?>
             <td><?php echo $data; ?></td>
-            <?php
-            }
-            ?>
+            <?php } ?>
         </tr>
     </table>
 </body>

@@ -1,7 +1,7 @@
 <?php
 /* For Loop */
 $person = array(
-    array(
+   array(
         'name' => 'User One',
         'email' => 'userone@gmail.com',
         'address' => 'Kathmandu',

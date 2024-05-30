@@ -30,12 +30,10 @@ $i = 0;
             <td><?php echo $i + 1 . "."; ?></td>
             <?php
             $count = count($person);
-            for ($i = 0; $i < $count; $i++) {
+            for($i = 0; $i < $count; $i++){
             ?>
-            <td><?php echo $person[$i]; ?></td>
-            <?php
-            }
-            ?>
+            <td><?php echo $person[$i];?></td>
+            <?php } ?>
         </tr>
     </table>
 </body>
