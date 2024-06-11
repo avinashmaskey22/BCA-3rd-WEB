@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <form action="simple.php" method="POST" enctype="" name="form">
+    <form action="simple.php" method="POST" enctype="application/x-www-form-urlencoded" name="form">
 
         <label for="fname">First Name: </label>
         <input type="text" id="fname" name="fname" required> <br><br>

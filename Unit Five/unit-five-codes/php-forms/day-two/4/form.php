@@ -28,7 +28,7 @@ if (isset($_POST, $_POST['uName'], $_POST['uPass'])) {
     </form>
     <br><br>
     <span style="color:red">
-        <?php
+    <?php
         if(isset($error)){
             echo $error;
         }
