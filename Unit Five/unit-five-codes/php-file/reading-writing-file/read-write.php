@@ -25,9 +25,9 @@ echo "<br><br>";
 echo $data; */
 
 //File write operation
-// $fp = fopen($file_name, 'w');
-// fwrite($fp, $data);
-// fclose($fp);
+/* $fp = fopen($file_name, 'w');
+fwrite($fp, $data);
+fclose($fp); */
 
 //File read operation
 /* $fp = fopen($file_name, 'r');
