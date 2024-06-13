@@ -16,7 +16,7 @@
             <th>Contact Number</th>
         </tr>
         <?php
-        $sql = "SELECT * FROM students";
+        $sql = "SELECT * FROM student";
         $query = mysqli_query($conn, $sql);
 
         if (mysqli_num_rows($query) <= 0) {
