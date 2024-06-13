@@ -1,4 +1,5 @@
 <?php
+
 /* Follow this steps to execute a query in database(manadate):
     a. Connect with db server and select your db
     b. Write SQL. For php, SQL are strings
@@ -9,21 +10,20 @@
 //db connection
 $conn = mysqli_connect("localhost", "root", "", "kmc_bca", 3307);
 
-//inserting single row at a time
-$sql = "INSERT INTO student
-            SET 
-            full_name = 'Ram Nepal',
-            email = 'ram.nepal@gmail.com',
-            address = 'Nepal',
-            contact_number = 999999999999
-        ";
+//sql query to create a table in a database
+$sql = "CREATE TABLE products(
+    product_id INT(11) AUTO_INCREMENT PRIMARY KEY,
+    product_name VARCHAR(255) NOT NULL,
+    product_description VARCHAR(255),
+    price INT NOT NULL
+)";
 
 //executing a SQL query
 $query = mysqli_query($conn, $sql); //this function returns true or false
 
 if ($query) {
     //success
-    echo "Data Inserted Successfully.";
+    echo "Table Created Successfully.";
 } else {
     echo mysqli_error($conn); //this function prints db errors
 }

@@ -7,10 +7,10 @@
 */
 
 //db connection
-$conn = mysqli_connect("localhost", "root", "", "demo-app", 3307);
+$conn = mysqli_connect("localhost", "root", "", "kmc_bca", 3307);
 
 //inserting multiple row at a time
-$sql = "INSERT INTO students
+$sql = "INSERT INTO student
             (full_name, email, address, contact_number)
             VALUES
             ('Lionel Messi', 'lm@gmail.com', 'Rosario', 99999999),
